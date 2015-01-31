@@ -1,0 +1,33 @@
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="widget-body">
+            <div class="modal-header">
+                <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true"> × </button>-->
+                <h4 class="modal-title" id="myModalLabel">Create New Application</h4>
+            </div>
+
+            <form class="form-horizontal" id = "createApp" action="/application/save" method="post" style="padding-left:">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="Application" class="col-sm-3 control-label">Application</label>
+                        <div class="col-sm-9">
+                            <input type="text" name="application_name" id="application_name" class="form-control" placeholder="Application Title" value="" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Type" class="col-sm-3 control-label">Type</label>
+                        <div class="col-sm-9">
+                            <input type="text" name="application_type" id="application_type" class="form-control" placeholder="Application Title" value="" required="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="submit" action="submit" class="btn btn-default">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+

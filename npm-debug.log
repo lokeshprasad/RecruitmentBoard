@@ -1,0 +1,100 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'assert' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 warn package.json crypto@0.0.3 crypto is also the name of a node core module.
+5 warn package.json vows@0.7.0 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'assert', null ]
+8 verbose cache add name=undefined spec="assert" args=["assert",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'assert',
+9 verbose parsed url   path: 'assert',
+9 verbose parsed url   href: 'assert' }
+10 silly lockFile 64b5daad-assert assert
+11 verbose lock assert /Users/lokesh/.npm/64b5daad-assert.lock
+12 silly lockFile 64b5daad-assert assert
+13 silly lockFile 64b5daad-assert assert
+14 verbose addNamed [ 'assert', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile e4f9d81a-assert assert@
+17 verbose lock assert@ /Users/lokesh/.npm/e4f9d81a-assert.lock
+18 silly addNameRange { name: 'assert', range: '*', hasData: false }
+19 verbose url raw assert
+20 verbose url resolving [ 'https://registry.npmjs.org/', './assert' ]
+21 verbose url resolved https://registry.npmjs.org/assert
+22 info trying registry request attempt 1 at 15:19:10
+23 http GET https://registry.npmjs.org/assert
+24 http 200 https://registry.npmjs.org/assert
+25 silly registry.get cb [ 200,
+25 silly registry.get   { date: 'Wed, 09 Apr 2014 09:49:13 GMT',
+25 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+25 silly registry.get     etag: '"577TNPDLJXD517FKVCQO5HHFY"',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     'cache-control': 'max-age=1',
+25 silly registry.get     'content-length': '9510',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     age: '5166',
+25 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-sv95-SJC3',
+25 silly registry.get     'x-cache': 'HIT, MISS',
+25 silly registry.get     'x-cache-hits': '1, 0',
+25 silly registry.get     'x-timer': 'S1397031787.076023340,VS0,VS35,VE223,VE5166452',
+25 silly registry.get     vary: 'Accept',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 silly addNameRange number 2 { name: 'assert', range: '*', hasData: true }
+27 silly addNameRange versions [ 'assert',
+27 silly addNameRange   [ '0.4.9', '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.1.0', '1.1.1' ] ]
+28 verbose addNamed [ 'assert', '1.1.1' ]
+29 verbose addNamed [ '1.1.1', '1.1.1' ]
+30 silly lockFile a2659742-assert-1-1-1 assert@1.1.1
+31 verbose lock assert@1.1.1 /Users/lokesh/.npm/a2659742-assert-1-1-1.lock
+32 silly lockFile 4ca22084-pmjs-org-assert-assert-1-1-1-tgz https://registry.npmjs.org/assert/-/assert-1.1.1.tgz
+33 verbose lock https://registry.npmjs.org/assert/-/assert-1.1.1.tgz /Users/lokesh/.npm/4ca22084-pmjs-org-assert-assert-1-1-1-tgz.lock
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/assert/-/assert-1.1.1.tgz',
+34 verbose addRemoteTarball   '766549ef4a6014b1e19c7c53f9816eabda440760' ]
+35 info retry fetch attempt 1 at 15:19:13
+36 verbose fetch to= /var/folders/cr/1b_0nh357xn1yr9fwynbd1l80000gn/T/npm-832-mxjeam5z/1397036953673-0.21602501370944083/tmp.tgz
+37 http GET https://registry.npmjs.org/assert/-/assert-1.1.1.tgz
+38 error fetch failed https://registry.npmjs.org/assert/-/assert-1.1.1.tgz
+39 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+40 info retry fetch attempt 2 at 15:19:25
+41 verbose fetch to= /var/folders/cr/1b_0nh357xn1yr9fwynbd1l80000gn/T/npm-832-mxjeam5z/1397036953673-0.21602501370944083/tmp.tgz
+42 http GET https://registry.npmjs.org/assert/-/assert-1.1.1.tgz
+43 error fetch failed https://registry.npmjs.org/assert/-/assert-1.1.1.tgz
+44 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+45 info retry fetch attempt 3 at 15:20:25
+46 verbose fetch to= /var/folders/cr/1b_0nh357xn1yr9fwynbd1l80000gn/T/npm-832-mxjeam5z/1397036953673-0.21602501370944083/tmp.tgz
+47 http GET https://registry.npmjs.org/assert/-/assert-1.1.1.tgz
+48 error fetch failed https://registry.npmjs.org/assert/-/assert-1.1.1.tgz
+49 silly lockFile 4ca22084-pmjs-org-assert-assert-1-1-1-tgz https://registry.npmjs.org/assert/-/assert-1.1.1.tgz
+50 silly lockFile 4ca22084-pmjs-org-assert-assert-1-1-1-tgz https://registry.npmjs.org/assert/-/assert-1.1.1.tgz
+51 silly lockFile a2659742-assert-1-1-1 assert@1.1.1
+52 silly lockFile a2659742-assert-1-1-1 assert@1.1.1
+53 silly lockFile e4f9d81a-assert assert@
+54 silly lockFile e4f9d81a-assert assert@
+55 error network getaddrinfo ENOTFOUND
+55 error network This is most likely not a problem with npm itself
+55 error network and is related to network connectivity.
+55 error network In most cases you are behind a proxy or have bad network settings.
+55 error network
+55 error network If you are behind a proxy, please make sure that the
+55 error network 'proxy' config is set properly.  See: 'npm help config'
+56 error System Darwin 13.1.0
+57 error command "node" "/usr/local/bin/npm" "install" "assert"
+58 error cwd /Users/lokesh/Desktop/code1
+59 error node -v v0.10.25
+60 error npm -v 1.3.24
+61 error syscall getaddrinfo
+62 error code ENOTFOUND
+63 error errno ENOTFOUND
+64 verbose exit [ 1, true ]

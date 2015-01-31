@@ -1,0 +1,68 @@
+{{layout '_layout_loggedin'}}
+	
+			
+		<div id="ribbon">
+				<!-- breadcrumb -->
+				<ol class="breadcrumb"><li><a href="/dashboard">Home</a></li><li>Dashboard</li></ol>
+				<!-- end breadcrumb -->
+
+</div>
+
+			<!-- MAIN CONTENT -->
+			<div id="content">
+
+		<div class = "row">
+	<div class="jarviswidget jarviswidget-color-blueDark" id="wid-id-0" data-widget-editbutton="false">
+	
+				<header>
+					<span class="widget-icon"> <i class="fa fa-table"></i> </span>
+					<h2>Applications</h2>
+					<button class="btn btn-primary pull-right" data-toggle="modal" data-target="#myModal" onclick="GetModelWindowData('/application/create')">
+							<i class="fa fa-plus"></i> Create New Application
+						</button>
+
+				</header>
+
+				
+				<!-- widget div-->
+				<div>
+
+					<!-- widget edit box -->
+					<div class="jarviswidget-editbox">
+						<!-- This area used as dropdown edit box -->
+
+					</div>
+					<!-- end widget edit box -->
+
+					<!-- widget content -->
+					<div class="widget-body">
+				<table class="table table-bordered">
+							<thead>	
+								<tr>
+									<th>Application</th>
+									<th>Actions</th>
+								</tr>
+							</thead>
+							<tbody>
+                            {{each(i, app) applications}}
+                            <tr>
+                               <td> <a href="/application/${i._id}">${i.name}</a></td>
+                                <td>Actions</td>
+                            </tr>
+                            {{/each}}
+							</tbody>
+						</table>
+
+
+					</div>
+					<!-- end widget content -->
+
+				</div>
+				<!-- end widget div -->
+
+			</div>
+		
+		</div>
+			</div>
+				</div>
+				

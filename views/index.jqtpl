@@ -1,0 +1,320 @@
+{{layout "layout"}}
+
+<!--=== Slider ===-->
+<div class="slider-inner">
+    <div id="da-slider" class="da-slider">
+        <div class="da-slide">
+            <h2><i>CLEAN &amp; FRESH</i> <br /> <i>FULLY RESPONSIVE</i> <br /> <i>DESIGN</i></h2>
+            <p><i>Lorem ipsum dolor amet</i> <br /> <i>tempor incididunt ut</i> <br /> <i>veniam omnis </i></p>
+            <div class="da-img"><img src="assets/plugins/parallax-slider/img/1.png" alt="" /></div>
+        </div>
+        <div class="da-slide">
+            <h2><i>RESPONSIVE VIDEO</i> <br /> <i>SUPPORT AND</i> <br /> <i>MANY MORE</i></h2>
+            <p><i>Lorem ipsum dolor amet</i> <br /> <i>tempor incididunt ut</i></p>
+            <div class="da-img span6">
+                <div class="span6">
+                    <iframe src="http://player.vimeo.com/video/47911018" width="100%" height="320" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> 
+                </div>
+            </div>
+        </div>
+        <div class="da-slide">
+            <h2><i>USING BEST WEB</i> <br /> <i>SOLUTIONS WITH</i> <br /> <i>HTML5/CSS3</i></h2>
+            <p><i>Lorem ipsum dolor amet</i> <br /> <i>tempor incididunt ut</i> <br /> <i>veniam omnis </i></p>
+            <div class="da-img"><img src="assets/plugins/parallax-slider/img/html5andcss3.png" alt="image01" /></div>
+        </div>
+        <nav class="da-arrows">
+            <span class="da-arrows-prev"></span>
+            <span class="da-arrows-next"></span>        
+        </nav>
+    </div><!--/da-slider-->
+</div><!--/slider-->
+<!--=== End Slider ===-->
+
+<!-- Purchase Block -->
+<div class="row-fluid purchase margin-bottom-30">
+    <div class="container">
+		<div class="span9">
+            <span>Unify is a clean and fully responsive incredible Template.</span>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi  vehicula sem ut volutpat. Ut non libero magna fusce condimentum eleifend enim a feugiat.</p>
+        </div>
+        <a href="https://wrapbootstrap.com/theme/unify-responsive-website-template-WB0412697" class="btn-buy hover-effect">Purchase Now</a>
+    </div>
+</div><!--/row-fluid-->
+<!-- End Purchase Block -->
+
+<!--=== Content Part ===-->
+<div class="container">		
+	<!-- Service blocks -->
+	<div class="row-fluid">
+    	<div class="span4">
+    		<div class="service clearfix">
+    			<div class="circle">
+    				<i class="icon-resize-small"></i>
+    			</div>
+    			<div class="desc">
+    				<h4>Fully Responsive</h4>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus etiam sem...</p>
+    			</div>
+    		</div>	
+    	</div>
+    	<div class="span4">
+    		<div class="service clearfix">
+    			<div class="circle">
+    				<i class="icon-cogs"></i>
+    			</div>
+    			<div class="desc">
+    				<h4>HTML5+CSS3</h4>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus etiam sem...</p>
+    			</div>
+    		</div>	
+    	</div>
+    	<div class="span4">
+    		<div class="service clearfix">
+    			<div class="circle">
+    				<i class="icon-plane"></i>
+    			</div>
+    			<div class="desc">
+    				<h4>Launch Ready</h4>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus etiam sem...</p>
+    			</div>
+    		</div>	
+    	</div>			    
+	</div><!--/row-fluid-->
+	<!-- //End Service Blokcs -->
+
+    <!-- Unify Thumbnail -->
+    <div class="row-fluid">
+        <div class="headline"><h3>Unify Thumbnail</h3></div>
+        <ul class="thumbnails">
+            <li class="span3 thumbnail-style thumbnail-kenburn">
+                <div class="overflow-hidden"><img src="assets/img/carousel/2.jpg" alt="" /></div>
+                <h3><a href="#">Our Work</a></h3>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+                <p><a class="btn-u btn-u-small" href="#">Read more</a></p>
+            </li>
+            <li class="span3 thumbnail-style thumbnail-kenburn">
+                <div class="overflow-hidden"><img src="assets/img/carousel/10.jpg" alt="" /></div>
+                <h3><a href="#">Our Work</a></h3>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+                <p><a class="btn-u btn-u-small" href="#">Read more</a></p>
+            </li>
+            <li class="span3 thumbnail-style thumbnail-kenburn">
+                <div class="overflow-hidden"><img src="assets/img/carousel/3.jpg" alt="" /></div>
+                <h3><a href="#">Our Work</a></h3>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+                <p><a class="btn-u btn-u-small" href="#">Read more</a></p>
+            </li>
+            <li class="span3 thumbnail-style thumbnail-kenburn">
+                <div class="overflow-hidden"><img src="assets/img/carousel/5.jpg" alt="" /></div>
+                <h3><a href="#">Our Work</a></h3>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+                <p><a class="btn-u btn-u-small" href="#">Read more</a></p>
+            </li>
+        </ul><!--/thumbnails-->
+    </div><!--/row-fluid-->
+
+	<!-- Blockquotes -->
+	<div class="row-fluid margin-bottom-5">
+        <blockquote class="hero"><!-- add class pagination-centered to center the text-->
+            <p>Award winning digital agency. We bring a personal and effective approach to every project we work on, which is why our clients love us and why they keep coming back. Lorem sequat ipsum dolor lorem sit amet, Lorem sequat ipsum dolor lorem sit amet consectetur adipiscing dolor elit.</p>
+            <small>CEO, Joe Black</small>
+        </blockquote>
+	</div><!--/row-fluid-->	
+	<!-- //End Blockquotes -->
+    
+	<!-- Tabs and Testimonials -->
+	<div class="row-fluid margin-bottom-10">
+    	<!-- Tabs -->
+        <div class="span8">
+			<div class="headline"><h3>Content Tabs</h3></div>
+            <ul class="nav nav-tabs tabs">
+                <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                <li><a href="#profile" data-toggle="tab">Profile</a></li>
+                <li><a href="#messages" data-toggle="tab">Messages</a></li>
+                <li><a href="#settings" data-toggle="tab">Settings</a></li>
+            </ul>
+            <!--/tabs-->
+            
+            <div class="tab-content">
+                <div class="tab-pane active" id="home">
+                    <img class="pull-left lft-img-margin img-width-200" src="assets/img/work/work1.jpg" alt="" />
+                    <h4>Heading Sample 1</h4>
+                    <p>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc.</p>
+                    <ul class="unstyled">
+                        <li><i class="icon-ok color-green"></i> Corporate and Creative</li>
+                        <li><i class="icon-ok color-green"></i> Responsive Bootstrap Template</li>
+                        <li><i class="icon-ok color-green"></i> Corporate and Creative</li>
+                    </ul>
+                    <p><em>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, Vivamus Pellentesque fermentum, ante ac interdum ullamcorper.</em></p>
+                </div>
+                <div class="tab-pane" id="profile">
+                	<h4>Heading Sample 2</h4>
+                    <p><img class="pull-left lft-img-margin img-width-200" src="assets/img/work/work3.jpg" alt="" /> Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum ullamcorper. Donec eget orci metus, <strong>ac adipiscing nunc.</strong> Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum ullamcorper. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac <strong>interdum ullamcorper.</strong></p>
+                </div>
+                <div class="tab-pane" id="messages">
+                    <h4>Heading Sample 3</h4>
+                    <p><img class="pull-right rgt-img-margin img-width-200" src="assets/img/work/work2.jpg" alt="" /> <strong>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id.</strong> Donec eget orci metus, Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum ullamcorper. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, consectetur id. Donec eget orci metus, ac adipiscing nunc. <strong>Pellentesque fermentum</strong>, ante ac interdum ullamcorper. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum ullamcorper.</p>
+                </div>
+                <div class="tab-pane" id="settings">
+                	<h4>Heading Sample 4</h4>
+                    <p><img class="pull-right rgt-img-margin img-width-200" src="assets/img/work/work4.jpg" alt="" /> <strong>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id.</strong> Donec eget orci metus, Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum ullamcorper. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, consectetur id. Donec eget orci metus, ac adipiscing nunc. <strong>Pellentesque fermentum</strong>, ante ac interdum ullamcorper. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum ullamcorper.</p>
+                </div>
+            </div><!--/tab-content-->
+        </div><!--/span8-->
+    
+    	<!-- Testimonials -->
+		<div class="span4">
+			<div class="headline"><h3>Client Testimonals</h3></div>
+			<div id="testimonal_carousel" class="carousel slide">
+			  <!-- Carousel items -->
+			  <div class="carousel-inner">
+			    <div class="active item">
+			    	<div class="testimonial">
+				    	<div class="testimonial-body">
+				    		<p>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum ullamcorper. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum ullamcorper.</p>
+				       		<p>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc.</p>	
+				       	</div>
+				    	<div class="testimonial-author">
+				    		<span class="arrow"></span>
+				    		<span class="name">John Smith</span>, CEO 
+				    	</div>
+				   	</div>
+			    </div><!--/carousel-inner-->
+
+                <!-- Item -->
+			    <div class="item">
+			    	<div class="testimonial">
+				    	<div class="testimonial-body">
+				    		<p>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc.</p>	
+				    		<p>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum ullamcorper. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum ullamcorper.</p>							       		
+				       	</div>
+				    	<div class="testimonial-author">
+				    		<span class="arrow"></span>
+				    		<span class="name">Lisa Cooper</span>, Art Director
+				    	</div>
+				   	</div>
+			    </div><!--/item-->
+			  </div><!--/testimonal_carousel-->
+              
+              <!-- Carousel nav -->						  
+              <div class="testimonal-arrow">
+                  <a class="icon-angle-right" href="#testimonal_carousel" data-slide="next"></a> 
+                  <a class="icon-angle-left" href="#testimonal_carousel" data-slide="prev"></a>	
+              </div>
+			</div>			
+		</div><!--/span4-->
+	</div>	
+	<!--//End Tabs and Testimonials -->
+
+    <!-- Our Clients -->
+    <div id="clients-flexslider" class="flexslider home clients">
+        <div class="headline"><h3>Our Clients</h3></div>    
+        <ul class="slides">
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/hp_grey.png" alt="" /> 
+                    <img src="assets/img/clients/hp.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/igneus_grey.png" alt="" /> 
+                    <img src="assets/img/clients/igneus.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/vadafone_grey.png" alt="" /> 
+                    <img src="assets/img/clients/vadafone.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/walmart_grey.png" alt="" /> 
+                    <img src="assets/img/clients/walmart.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/shell_grey.png" alt="" /> 
+                    <img src="assets/img/clients/shell.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/natural_grey.png" alt="" /> 
+                    <img src="assets/img/clients/natural.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/aztec_grey.png" alt="" /> 
+                    <img src="assets/img/clients/aztec.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/gamescast_grey.png" alt="" /> 
+                    <img src="assets/img/clients/gamescast.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/cisco_grey.png" alt="" /> 
+                    <img src="assets/img/clients/cisco.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/everyday_grey.png" alt="" /> 
+                    <img src="assets/img/clients/everyday.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/cocacola_grey.png" alt="" /> 
+                    <img src="assets/img/clients/cocacola.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/spinworkx_grey.png" alt="" /> 
+                    <img src="assets/img/clients/spinworkx.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/shell_grey.png" alt="" /> 
+                    <img src="assets/img/clients/shell.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/natural_grey.png" alt="" /> 
+                    <img src="assets/img/clients/natural.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/gamescast_grey.png" alt="" /> 
+                    <img src="assets/img/clients/gamescast.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/everyday_grey.png" alt="" /> 
+                    <img src="assets/img/clients/everyday.png" class="color-img" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/clients/spinworkx_grey.png" alt="" /> 
+                    <img src="assets/img/clients/spinworkx.png" class="color-img" alt="" />
+                </a>
+            </li>
+        </ul>
+    </div><!--/flexslider-->
+    <!-- //End Our Clients -->
+</div><!--/container-->		
+<!--=== End Content Part ===-->
+
